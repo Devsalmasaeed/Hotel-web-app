@@ -129,3 +129,12 @@ h1 span {
 #language {
     margin-left: 15px;
 }
+.content-1 {
+    width: 375px;
+    height: 334px;
+    left: 0px;
+    top: 71px;
+    background: url(assets/Rectangle\ 5.svg)
+}
+
+
