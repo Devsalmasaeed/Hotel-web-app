@@ -11,6 +11,8 @@
 }
 body {
     background-color: #E7E6EB;
+    max-width: 375px;
+    margin: auto;
 }
 
 .menu-toggle {
