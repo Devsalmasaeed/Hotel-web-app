@@ -12,47 +12,54 @@
 }
 body {
     background-color: #E7E6EB;
+    
+}
+.header {
+    background-color:white ;
+    padding: 15px 7px 15px 7px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8 1fr);
     max-width: 375px;
     margin: auto;
 }
-.header {
-    display: flex;
-    background-color:white ;
-    margin-top: 20px;
-    gap: 13px;
-    padding: 15px 7px 15px 7px;
-}
 #icon {
-    margin-left: 90px;
-    margin-top: 5px;
+    grid-row: 1;
+    margin-left: 50px;
 }
 .logo {
     display: flex;
-    gap: 20px;
 }
-h1 {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 39px;
-color: #2A90D9;
-margin-top: 5px;
+#logo {
+    margin-left: 20px;
+    margin-top: 10px;
 }
-h1 span {
-    font-family: 'Montserrat';
+.header h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2A90D9;
+    margin-left: 60px;
+    grid-column: 1;
+    grid-row: 1;
+}
+.header h1 span {
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     color: #EE685F;
     }
-
-
 .menu-toggle {
     display: block;
     border: none;
     background-color:white ;
-    font-size: 30px;
+    margin-right: 210px;
+    grid-column: 1;
+    grid-row: 1;
 }
 .nav-menu {
     display: none;
@@ -66,19 +73,17 @@ h1 span {
     align-items: flex-start;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-    transform: translateX(100%);
-    transition: transform 0.3s ease;
     margin-top: 30px;
     
 }
 #nav-icon {
-    margin-left: 40px;
+    margin-left: 60px;
+    margin-top: 5px;
 }
 .nav-menu.active {
     transform: translateX(0);
     display: flex;
     gap: 8px;
-
 }
 .nav-menu ul {
     flex-direction: column;
@@ -130,10 +135,8 @@ h1 span {
     margin-left: 15px;
 }
 .content-1 {
-    width: 375px;
     height: 334px;
     left: 0px;
-    top: 71px;
     background: url(assets/Rectangle\ 5.svg)
 }
 
