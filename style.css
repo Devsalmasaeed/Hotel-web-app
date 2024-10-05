@@ -232,5 +232,30 @@ body {
     transform: translateX(3%);
     margin-top: 20px;
 }
+#chooseus img {
+    transform: translateX(120%);
+    margin-top: 50px;
+}
+#chooseus h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #262729;
+    text-align: center;
+    margin-top: 20px;
+}
+#chooseus p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #262729;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
 
