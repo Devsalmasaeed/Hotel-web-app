@@ -233,7 +233,7 @@ body {
     margin-top: 20px;
 }
 #chooseus img {
-    transform: translateX(120%);
+    transform: translateX(130%);
     margin-top: 50px;
 }
 #chooseus h3 {
@@ -255,7 +255,7 @@ body {
     color: #262729;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: -10px;
 }
 
 
