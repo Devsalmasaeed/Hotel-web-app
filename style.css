@@ -21,7 +21,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(8 1fr);
-    max-width: 375px;
+    max-width: 360px;
     margin: auto;
 }
 #icon {
@@ -138,6 +138,39 @@ body {
     height: 334px;
     left: 0px;
     background: url(assets/Rectangle\ 5.svg)
+}
+.apartment {
+    grid-column: 2;
+}
+.apartment h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #262729;
+    margin-top: 30px;
+}
+.apartment p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262729;
+    margin-top: 15px;
+}
+.box {
+    width: 328px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 36px;
+    border: 1px solid;
+    border-color: #d6d6d6;
+    box-shadow: 0px 0px 8px #00000029;
+    grid-column: 2;
 }
 
 
