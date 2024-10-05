@@ -5,6 +5,7 @@
 }
 :root{
     --dark-color: #262729;
+    --dark: #303038;
     --reddish-brown: #EE685F;
     --light-blue: #2A90D9;
     --grey:#E7E6EB;
@@ -171,6 +172,35 @@ body {
     border-color: #d6d6d6;
     box-shadow: 0px 0px 8px #00000029;
     grid-column: 2;
+    
+}
+.box h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303038;
+    margin-left: 50px;
+    margin-top: -15px;
+    
+}
+.box h4 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A3A3A3;
+    margin-left: 50px;
+}
+#btn {
+    transform: translateY(-110%);
+    margin-left: 270px;
+}
+#location {
+    margin-left: 20px;
+    transform: translateY(100%);
 }
 
 
