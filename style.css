@@ -232,11 +232,11 @@ body {
     transform: translateX(3%);
     margin-top: 20px;
 }
-#chooseus img {
+#chooseusContainer img {
     transform: translateX(130%);
     margin-top: 50px;
 }
-#chooseus h3 {
+#chooseusContainer h3 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
@@ -246,7 +246,7 @@ body {
     text-align: center;
     margin-top: 20px;
 }
-#chooseus p {
+#chooseusContainer p {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
