@@ -177,3 +177,24 @@ const renderPost = postContainer => {
 }
 
 renderPost(postContainer);
+
+const titleContainer = [
+    { name: 'Title of section', para1: 'page title', para2: 'page title', para3: 'page title', },
+    { name: 'Title of section', para1: 'page title', para2: 'page title', para3: 'page title', },
+    { name: 'Title of section', para1: 'page title', para2: 'page title', para3: 'page title', },
+];
+const renderTitle = titleContainer => {
+    const container = document.getElementById('titleContainer');
+    titleContainer.forEach(titleContainer => {
+        container.innerHTML += `
+            <div class="title-page">
+                <h1>${titleContainer.name}</h1>
+                <p id="pg">${titleContainer.para1}</p>
+                <p  id="pg">${titleContainer.para2}</p>
+                <p  id="pg">${titleContainer.para3}</p>
+            </div>
+        `;
+    });
+}
+
+renderTitle(titleContainer);
