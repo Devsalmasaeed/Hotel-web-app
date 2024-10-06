@@ -363,16 +363,33 @@ span {
     font-size: 14px;
     line-height: 17px;
     color: #1A1A1A;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin: 10px 0 40px 15px;
 }
 .reviewer p span {
-font-family: "Montserrat";
-font-style: italic;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #1A1A1A;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A1A1A;
+}
+.more-review {
+    background: #EE685F;
+    border-radius: 10px;
+    width: 328px;
+    height: 50px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+.more-review p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
 }
 
 
