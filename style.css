@@ -271,5 +271,23 @@ body {
     margin-top: 60px;
     margin-bottom: 60px;
 }
+.card {
+    border: 1px solid #e5e4e9;
+    width: 328px;
+    height: 388px;
+    margin-left: 16px;
+    border-radius: 10px;
+}
+.img {
+    transform: translateY(-510%);
+    margin-left: 22px;
+}
+#bed {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#fav {
+    margin-left: 175px;
+}
 
 
