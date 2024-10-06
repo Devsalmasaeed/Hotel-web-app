@@ -455,5 +455,28 @@ span {
     background-color: #EBEBEB;
     height: 877px;
 }
+.title-page {
+    margin-top: 50px;
+    margin-left: 16px;
+}
+.title-page h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262729;
+}
+.title-page p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262729;
+}
+#pg {
+    margin-top: 20px;
+}
 
 
