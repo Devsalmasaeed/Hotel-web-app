@@ -391,5 +391,64 @@ span {
     color: #FFFFFF;
     margin-top: 15px;
 }
+.recent-post {
+    background-color: #ffffff;
+}
+.recent-post h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #262729;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.content img {
+    margin-left: 16px;
+}
+.content h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #262729;
+    margin: 16px 0px 0px 16px;
+}
+#time {
+    margin-left: 250px;
+    transform: translateY(-120%);
+}
+.content h3 {
+    margin-left: 275px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2A90D9;
+    transform: translateY(-235%);
+}
+.content h4 {
+    margin-top: -35px;
+    margin-left: 16px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #262729;
+}
+.content p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #262729;
+    margin: 20px 0px 30px 16px;
+}
 
 
