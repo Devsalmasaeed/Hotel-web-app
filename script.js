@@ -133,3 +133,47 @@ const renderReviewer = reviewsContainer => {
 }
 
 renderReviewer(reviewsContainer);
+const postContainer = [
+    { 
+        Image1: "assets/recent1.png", 
+        heading1: "May 23, 2022",
+        Image2: "assets/time.svg", 
+        heading2: "5 minutes",
+        heading3: "My trip to Athens",
+        para: "It would seem that in a city where <br> Theseus, Plato and Epicurus once <br> walked, the very idea of the subway is <br> alien to the city, but already...",
+    },
+    { 
+        Image1: "assets/recent2.png", 
+        heading1: "May 22, 2022",
+        Image2: "assets/time.svg", 
+        heading2: "1 minutes",
+        heading3: "Vilnius resorts",
+        para: "I haven't seen any resorts in Vilnius, but <br> there are wonderful people and pubs",
+    },
+    { 
+        Image1: "assets/recent3.png", 
+        heading1: "May 20, 2022",
+        Image2: "assets/time.svg", 
+        heading2: "15 minutes",
+        heading3: "Tips for flying on a plane",
+        para: "If you have a fear of flying, here's a <br> helpful tip: bring your co-pilot so you can <br> take a nap while he steers the plane for <br> you",
+    },
+];
+
+const renderPost = postContainer => {
+    const container = document.getElementById('postContainer');
+    postContainer.forEach(postContainer => {
+        container.innerHTML += `
+            <div class="content">
+                <img src="${postContainer.Image1}" alt="">
+                <h2>${postContainer.heading1}</h2>
+                <img src="${postContainer.Image2}" alt="" id="time">
+                <h3>${postContainer.heading2}</h3>
+                <h4>${postContainer.heading3}</h4>
+                <p>${postContainer.para}</p>
+            </div>
+        `;
+    });
+}
+
+renderPost(postContainer);
