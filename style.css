@@ -453,7 +453,7 @@ span {
 }
 .title {
     background-color: #EBEBEB;
-    height: 877px;
+    height: 977px;
 }
 .title-page {
     margin-top: 50px;
@@ -524,6 +524,50 @@ span {
 }
 #line {
     margin: 35px 0px 0px 16px;
+}
+.social {
+    margin-left: 16px;
+}
+.social h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2A90D9;
+    margin-top: -110px;
+}
+.social h1 span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #EE685F;
+}
+.social img {
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.designer {
+    margin-top: 15px;
+}
+.designer p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262729;
+}
+.designer p span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A90D9;
+    margin-left: -2px;
 }
 
 
