@@ -497,5 +497,30 @@ span {
     color: #262729;
     margin: 15px 0px 10px 16px ;
 }
+.more-news {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EE685F;
+    border-radius: 10px;
+    width: 328px;
+    height: 41px;
+    margin-left: 15px;
+}
+.more-news img {
+    width: 14.98px;
+    height: 15px;
+    background: #EE685F;
+    margin: 10px 0px 0px 10px;
+}
+.vec {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    right: 16px;
+    background: #EE685F;
+    border: 1px solid #EE685F;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 287px;
+}
 
 
