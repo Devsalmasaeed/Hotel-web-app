@@ -100,3 +100,36 @@ const renderContainer = specialofferContainer => {
 }
 
 renderContainer(specialofferContainer);
+const reviewsContainer = [
+    { 
+        Image: "assets/review1.png", 
+        heading: "I quickly found the right tour for me, <br> but I had a few questions about the <br> hotel, I wrote to tech support and they <br> answered all my questions within an <br> hour. The vacation itself was perfect. <br> Thank you very much. I will come back <br> again and again.",
+        para: "Jannike Borg, <span>Publisher</span>",
+    },
+    { 
+        Image: "assets/review2.png", 
+        heading: "I quickly found the right tour for me, <br> but I had a few questions about the <br> hotel, I wrote to tech support and they <br> answered all my questions within an <br> hour. The vacation itself was perfect. <br> Thank you very much. I will come back <br> again and again.",
+        para: "LeBron Durant,<span>Flight attendant</span>",
+    },
+    { 
+        Image: "assets/review3.png", 
+        heading: "I quickly found the right tour for me, <br> but I had a few questions about the <br> hotel, I wrote to tech support and they <br> answered all my questions within an <br> hour. The vacation itself was perfect. <br> Thank you very much. I will come back <br> again and again.",
+        para: "Kaarel Piho,<span>Chiropodist</span>",
+    },
+    
+];
+
+const renderReviewer = reviewsContainer => {
+    const container = document.getElementById('reviewsContainer');
+    reviewsContainer.forEach(reviewsContainer => {
+        container.innerHTML += `
+            <div class="reviewer">
+                <img src="${reviewsContainer.Image}" alt="">
+                <h2>${reviewsContainer.heading}</h2>
+                <p>${reviewsContainer.para}</p>
+            </div>
+        `;
+    });
+}
+
+renderReviewer(reviewsContainer);
