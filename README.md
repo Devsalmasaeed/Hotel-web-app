@@ -11,9 +11,8 @@
 6. [Technologies Used](#technologies-used)
 7. [Setup and Installation](#setup-and-installation)
 8. [Usage](#usage)
-9. [Media Queries](#Media-Queries)
-10. [License](#license)
-12. [Author(s)](#authors)
+9. [License](#license)
+10. [Author(s)](#authors)
 
 ## Overview
 
