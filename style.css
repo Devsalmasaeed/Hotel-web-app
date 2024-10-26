@@ -21,9 +21,9 @@ body {
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(8 1fr);
+    grid-template-columns: repeat(1fr);
     max-width: 360px;
-    margin: auto;
+    margin-left: 10px;
 }
 #icon {
     grid-row: 1;
@@ -35,6 +35,9 @@ body {
 #logo {
     margin-left: 20px;
     margin-top: 10px;
+}
+.header {
+    margin-top: 20px;
 }
 .header h1 {
     font-family: "Montserrat";
@@ -74,7 +77,8 @@ body {
     align-items: flex-start;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-    margin-top: 30px;
+    margin-top: 20px;
+    
     
 }
 #nav-icon {
@@ -569,5 +573,14 @@ span {
     color: #2A90D9;
     margin-left: -2px;
 }
+@media only screen and (min-width: 1025px) {
+    .grid {
+        width: 1025px;
+    }
+    #chooseusContainer {
+        grid-template-columns: repeat(4, ifr);
+    }
+}
+
 
 
